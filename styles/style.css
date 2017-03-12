@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0;
+	padding-right: 0;
+}
+
+#section_1 {
+	background-color: #Fbec6f;
+}
+
+.top-menu {
+	float: left;
+}
+
+.hline {
+	float: right;
+}
+
+.top-menu ul {
+	list-style: none;
+	font-size: 20px;
+}
+
+.top-menu ul li {
+	display: inline-block;
+	padding: 15px;
+}
+
+.top-menu ul li a {
+	color: black;
+}
+
+.hline {
+	margin-top: 0;
+}

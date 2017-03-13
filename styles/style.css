@@ -3,6 +3,9 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+  	outline: none;
+  	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
@@ -11,11 +14,14 @@
 }
 
 #section_1 {
-	background-color: #Fbec6f;
+	background-image: url('http://answer-yes.ru/wp-content/uploads/2014/12/venecy.jpg');
+	background-size:cover;
+	height: 100vh;
 }
 
 .top-menu {
 	float: left;
+	margin-top: 10px;
 }
 
 .hline {
@@ -24,22 +30,69 @@
 
 .top-menu ul {
 	list-style: none;
-	font-size: 20px;
+	font-size: 15px;
+	width: 100%;
+	border-bottom:1px solid grey;
+	padding-bottom: 10px;
+
 }
 
 .top-menu ul li {
 	display: inline-block;
-	padding: 15px;
+	padding: 10px;
+}
+
+.top-menu ul li:last-child {
+	float: right;
 }
 
 .top-menu ul li a {
-	color: black;
+	color: white;
+	text-decoration: none;
 }
 
-.hline {
-	margin-top: 0;
+.top-menu a:hover {
+	color: #526EA0;
 }
 
+.ftravel {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.ftravel h1 {
+	font-size: 50px;
+	color: white;
+}
+
+.ftravel p {
+	color: white;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+.orng-btn {
+	margin-top: 30px;
+}
+.orng-btn button {
+	width: 180px;
+	height: 40px;
+	background-color: #F6AF29;
+	border: 0;
+	border-radius: 25px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.orng-btn button:hover {
+	background-color: #B9AE48;
+}
+
+.orng-btn button:active {
+	background-color: #A3A2A7;
+}
 #section_2 {
 	background-color: white;
 }

@@ -93,8 +93,28 @@
 .orng-btn button:active {
 	background-color: #A3A2A7;
 }
+
+.p-video {
+	color: white;
+	padding-top: 180px;
+}
+
+.p-video small {
+	display: block;
+}
+
+svg path {
+	fill:#fff;
+
+}
+
+svg circle {
+	fill:#666;
+}
+
 #section_2 {
 	background-color: white;
+	margin-top: 100px;
 }
 
 .img-block img {
@@ -104,11 +124,32 @@
 
 .wtf {
 	text-align: center;
-	margin-top: 60px;
 }
 
 .row {
 	text-align: center;
-	margin-top: 100px;
+	margin: 120px;
 	padding: 10px;
+}
+
+.img-block {
+	cursor: pointer;
+}
+
+.img-block h3 {
+	padding-bottom: 10px;
+}
+
+.img-block img {
+	margin-right: 30px;
+}
+
+.items {
+	transition: all 0.3s;
+	padding: 10px;
+}
+
+.items:hover {
+	box-shadow: 0 5px 30px rgba(14, 14, 14, 0.07);
+	-webkit-transform: translateY(-10px);
 }

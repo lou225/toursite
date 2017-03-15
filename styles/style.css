@@ -14,9 +14,11 @@
 }
 
 #section_1 {
-	background-image: url('http://answer-yes.ru/wp-content/uploads/2014/12/venecy.jpg');
+	background-image: url('http://s-pb.in/images/phocagallery/marmalade-------c-7da2/DSC00883.JPG');
 	background-size:cover;
-	height: 100vh;
+	background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;
 }
 
 .top-menu {
@@ -30,10 +32,10 @@
 
 .top-menu ul {
 	list-style: none;
-	font-size: 15px;
+	font-size: 18px;
 	width: 100%;
-	border-bottom:1px solid grey;
-	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 5px;
 
 }
 
@@ -49,10 +51,22 @@
 .top-menu ul li a {
 	color: white;
 	text-decoration: none;
+	padding: 15px;
 }
 
 .top-menu a:hover {
-	color: #526EA0;
+	color: #FFCE3E;
+}
+
+.phone {
+	margin-top: 21px;
+	float: right;
+	margin-left: 10px;
+}
+
+.phone p {
+	color: white;
+	font-size: 17px;
 }
 
 .ftravel {
@@ -62,13 +76,14 @@
 }
 
 .ftravel h1 {
-	font-size: 50px;
+	font-size: 70px;
 	color: white;
 }
 
 .ftravel p {
 	color: white;
-	padding-top: 10px;
+	padding-top: 15px;
+	font-size: 20px;
 	font-weight: 600;
 }
 
@@ -76,18 +91,18 @@
 	margin-top: 30px;
 }
 .orng-btn button {
-	width: 180px;
+	width: 200px;
 	height: 40px;
 	background-color: #F6AF29;
 	border: 0;
 	border-radius: 25px;
 	color: white;
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 17px;
+	font-weight: 400;
 }
 
 .orng-btn button:hover {
-	background-color: #B9AE48;
+	background-color: #FFCE3E;
 }
 
 .orng-btn button:active {
@@ -96,7 +111,7 @@
 
 .p-video {
 	color: white;
-	padding-top: 180px;
+	padding-top: 160px;
 }
 
 .p-video small {
@@ -105,7 +120,6 @@
 
 svg path {
 	fill:#fff;
-
 }
 
 svg circle {
@@ -128,8 +142,9 @@ svg circle {
 
 .row {
 	text-align: center;
-	margin: 120px;
-	padding: 10px;
+	margin: 140px;
+	padding: 15px;
+	margin-bottom: 50px;
 }
 
 .img-block {
@@ -149,7 +164,16 @@ svg circle {
 	padding: 10px;
 }
 
+.items p {
+	padding-bottom: 20px;
+}
+
 .items:hover {
-	box-shadow: 0 5px 30px rgba(14, 14, 14, 0.07);
+	box-shadow: 0 5px 30px rgba(14, 14, 14, 0.1);
 	-webkit-transform: translateY(-10px);
+}
+
+.slaids {
+	text-align: center;
+	margin-bottom: 80px;
 }
